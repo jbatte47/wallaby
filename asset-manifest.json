@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/wallaby/static/css/main.7decabe4.chunk.css",
+    "main.js": "/wallaby/static/js/main.029b01bf.chunk.js",
+    "main.js.map": "/wallaby/static/js/main.029b01bf.chunk.js.map",
+    "runtime-main.js": "/wallaby/static/js/runtime-main.7977c962.js",
+    "runtime-main.js.map": "/wallaby/static/js/runtime-main.7977c962.js.map",
+    "static/js/2.cbd46fec.chunk.js": "/wallaby/static/js/2.cbd46fec.chunk.js",
+    "static/js/2.cbd46fec.chunk.js.map": "/wallaby/static/js/2.cbd46fec.chunk.js.map",
+    "index.html": "/wallaby/index.html",
+    "precache-manifest.9b897ddf8f176e8df57c731832e2bce7.js": "/wallaby/precache-manifest.9b897ddf8f176e8df57c731832e2bce7.js",
+    "service-worker.js": "/wallaby/service-worker.js",
+    "static/css/main.7decabe4.chunk.css.map": "/wallaby/static/css/main.7decabe4.chunk.css.map",
+    "static/js/2.cbd46fec.chunk.js.LICENSE.txt": "/wallaby/static/js/2.cbd46fec.chunk.js.LICENSE.txt",
+    "static/media/bork.gif": "/wallaby/static/media/bork.2b1c8b36.gif",
+    "static/media/diemz.gif": "/wallaby/static/media/diemz.4f16c0f8.gif",
+    "static/media/empty.gif": "/wallaby/static/media/empty.bce677d0.gif",
+    "static/media/friendship.gif": "/wallaby/static/media/friendship.f339e60f.gif",
+    "static/media/greetings.gif": "/wallaby/static/media/greetings.b9200209.gif",
+    "static/media/hiphop.gif": "/wallaby/static/media/hiphop.c8a7d619.gif",
+    "static/media/travel.gif": "/wallaby/static/media/travel.f9a41121.gif",
+    "static/media/wallaby.gif": "/wallaby/static/media/wallaby.e83a4f50.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7977c962.js",
+    "static/js/2.cbd46fec.chunk.js",
+    "static/css/main.7decabe4.chunk.css",
+    "static/js/main.029b01bf.chunk.js"
+  ]
+}
