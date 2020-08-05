@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`optimizer create optimized delivery route should correctly generate an optimized route 1`] = `
+Object {
+  "distance": 11.446279000112114,
+  "route": Array [
+    Object {
+      "distance": 0,
+      "isOrigin": true,
+      "name": "origin",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+    },
+    Object {
+      "distance": 1.4142135623730951,
+      "meta": "a stuff",
+      "name": "a",
+      "x": 1,
+      "y": 1,
+      "z": 0,
+    },
+    Object {
+      "distance": 4.58257569495584,
+      "meta": "c rulez",
+      "name": "c",
+      "x": 3,
+      "y": 2,
+      "z": 4,
+    },
+    Object {
+      "distance": 2.449489742783178,
+      "meta": "b is better",
+      "name": "b",
+      "x": 2,
+      "y": 1,
+      "z": 2,
+    },
+    Object {
+      "distance": 3,
+      "isOrigin": true,
+      "name": "origin",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+    },
+  ],
+}
+`;
+
+exports[`optimizer destination permutations generator should create all possible permutations that begin and end with the origin 1`] = `
+Array [
+  Array [
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+    Object {
+      "meta": "a stuff",
+      "name": "a",
+    },
+    Object {
+      "meta": "b is better",
+      "name": "b",
+    },
+    Object {
+      "meta": "c rulez",
+      "name": "c",
+    },
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+  ],
+  Array [
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+    Object {
+      "meta": "b is better",
+      "name": "b",
+    },
+    Object {
+      "meta": "a stuff",
+      "name": "a",
+    },
+    Object {
+      "meta": "c rulez",
+      "name": "c",
+    },
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+  ],
+  Array [
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+    Object {
+      "meta": "c rulez",
+      "name": "c",
+    },
+    Object {
+      "meta": "a stuff",
+      "name": "a",
+    },
+    Object {
+      "meta": "b is better",
+      "name": "b",
+    },
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+  ],
+  Array [
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+    Object {
+      "meta": "a stuff",
+      "name": "a",
+    },
+    Object {
+      "meta": "c rulez",
+      "name": "c",
+    },
+    Object {
+      "meta": "b is better",
+      "name": "b",
+    },
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+  ],
+  Array [
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+    Object {
+      "meta": "b is better",
+      "name": "b",
+    },
+    Object {
+      "meta": "c rulez",
+      "name": "c",
+    },
+    Object {
+      "meta": "a stuff",
+      "name": "a",
+    },
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+  ],
+  Array [
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+    Object {
+      "meta": "c rulez",
+      "name": "c",
+    },
+    Object {
+      "meta": "b is better",
+      "name": "b",
+    },
+    Object {
+      "meta": "a stuff",
+      "name": "a",
+    },
+    Object {
+      "isOrigin": true,
+      "name": "origin",
+    },
+  ],
+]
+`;
+
+exports[`optimizer hop distance calculator should correctly calculate the distance for each hop 1`] = `
+Array [
+  Object {
+    "distance": 0,
+    "x": 1,
+    "y": 1,
+    "z": 0,
+  },
+  Object {
+    "distance": 2.23606797749979,
+    "x": 2,
+    "y": 1,
+    "z": 2,
+  },
+  Object {
+    "distance": 2.449489742783178,
+    "x": 3,
+    "y": 2,
+    "z": 4,
+  },
+]
+`;
